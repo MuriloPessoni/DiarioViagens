@@ -79,23 +79,3 @@ DiarioViagens/
 ```
 
 Os dados ficam no estado compartilhado do app e permanecem disponíveis enquanto ele está aberto. Eles não são sincronizados com uma conta ou servidor.
-
-## Publicação no GitHub
-
-1. Crie um repositório público no GitHub (o professor precisa conseguir acessá-lo).
-2. Preencha os nomes dos integrantes neste README.
-3. Na pasta do projeto, execute:
-
-   ```bash
-   git init
-   git add .
-   git commit -m "Projeto Diário de Viagens"
-   git branch -M main
-   git remote add origin https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-   git push -u origin main
-   ```
-
-4. Confira em uma janela anônima que o repositório está público e que o README está correto.
-5. Envie pelo Teams o link do repositório até **24/11/2026 às 23h59**.
-
-Não inclua `node_modules` no repositório.
