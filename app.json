@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Diário de Viagens",
+    "slug": "diario-de-viagens",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      ["expo-location", { "locationWhenInUsePermission": "Permitir que o Diário de Viagens mostre sua localização no mapa." }],
+      ["expo-camera", { "cameraPermission": "Permitir que o Diário de Viagens use a câmera para fotografar seus lugares.", "microphonePermission": false, "recordAudioAndroid": false }],
+      ["expo-image-picker", { "photosPermission": "Permitir que o Diário de Viagens escolha fotos da sua galeria.", "microphonePermission": false }],
+      ["expo-media-library", { "photosPermission": "Permitir que o Diário de Viagens acesse suas fotos.", "savePhotosPermission": "Permitir que o Diário de Viagens salve fotos na sua galeria." }]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
